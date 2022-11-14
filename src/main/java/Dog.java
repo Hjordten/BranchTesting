@@ -4,17 +4,18 @@ public class Dog extends Animal {
     public void makeSound() {
         System.out.println("wuf");
     }
-    public boolean eat(String apple){
+
+    public boolean eat(String apple) {
         return true;
     }
 
     @Override
-    public String mood(boolean value) {
-        String happy = "Logrer";
-        String angry = "Knurer";
-        if (value){
-            return happy;
+    public void mood(boolean value) {
+        if (value == true) {
+            System.out.println("Sur");
+        } else {
+            System.out.println("glad");
+
         }
-       return angry;
     }
 }

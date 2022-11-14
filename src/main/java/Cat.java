@@ -9,12 +9,11 @@ public class Cat extends Animal{
     }
 
     @Override
-    public String mood(boolean value) {
-        String happy = "Spinder";
-        String angry = "Hvæser";
-        if (value){
-            return happy;
+    public void mood(boolean value) {
+        if (value == true){
+            System.out.println("Sur");
+        } else {
+            System.out.println("glad");
         }
-        return angry;
     }
 }

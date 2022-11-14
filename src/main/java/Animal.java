@@ -8,5 +8,5 @@ public abstract class Animal {
 
     public abstract boolean eat(String foodType);
 
-    public abstract String mood(boolean mood);
+    public abstract void mood(boolean mood);
 }
