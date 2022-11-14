@@ -7,4 +7,14 @@ public class Cat extends Animal{
     public boolean eat(String apple){
         return true;
     }
+
+    @Override
+    public String mood(boolean value) {
+        String happy = "Spinder";
+        String angry = "Hvæser";
+        if (value){
+            return happy;
+        }
+        return angry;
+    }
 }

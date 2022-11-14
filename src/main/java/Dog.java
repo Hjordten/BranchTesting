@@ -7,4 +7,14 @@ public class Dog extends Animal {
     public boolean eat(String apple){
         return true;
     }
+
+    @Override
+    public String mood(boolean value) {
+        String happy = "Logrer";
+        String angry = "Knurer";
+        if (value){
+            return happy;
+        }
+       return angry;
+    }
 }
