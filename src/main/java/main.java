@@ -10,6 +10,7 @@ public class main {
 
     System.out.println(animal.eat("cactus"));
     System.out.println(animal1.eat("raw onion"));
+    System.out.println(animal1.eat("raw onion"));
 
 
     }
