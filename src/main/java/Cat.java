@@ -10,10 +10,13 @@ public class Cat extends Animal{
 
     @Override
     public void mood(boolean value) {
-        if (value == true){
-            System.out.println("Sur");
+        if (value){
+            System.out.println("Spinder");
         } else {
-            System.out.println("glad");
+            System.out.println("Hvæser");
         }
+
+        System.out.println("Katten reagere og " + (value?"Spinder":"hvæser"));
     }
+
 }

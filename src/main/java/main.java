@@ -14,7 +14,7 @@ public class main {
 
     animal.mood(false);
     animal1.mood(false);
-    animal1.mood(false);
+    animal1.mood(true);
 
 
     }
