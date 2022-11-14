@@ -3,4 +3,8 @@ public class Cat extends Animal{
     public void makeSound() {
         System.out.println("Miow");
     }
+
+    public boolean eat(String apple){
+        return true;
+    }
 }

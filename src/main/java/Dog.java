@@ -4,4 +4,7 @@ public class Dog extends Animal {
     public void makeSound() {
         System.out.println("wuf");
     }
+    public boolean eat(String apple){
+        return true;
+    }
 }
