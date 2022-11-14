@@ -8,6 +8,9 @@ public class main {
     animal.makeSound();
     animal1.makeSound();
 
+    System.out.println(animal.eat("cactus"));
+    System.out.println(animal1.eat("raw onion"));
+
 
     }
 }
